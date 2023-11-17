@@ -1,0 +1,22 @@
+<?PHP
+include("conex_info.php");
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Insertar Articulo</title>
+</head>
+<body>
+	<form enctype="multipart/form-data" action="insertar_Articulo.php" method="post">
+		<table border="1" width="50%">
+			<tr><td colspan="2"><b>Formulario para insertar Nuevo Articulo</b></td></tr>
+			<tr><td>Nombre Articulo</td><td><input type="text" name="Descripcion" id="Descripcion"></td></tr>
+			<tr><td>Precio</td><td><input type="text" name="PVP" id="PVP"></td></tr>
+			<tr><td>Pais de Origen</td><td><input type="text" name="Pais_Origen" id="Pais_Origen"></td></tr>
+			<tr><td>Imagen</td><td><input type="File" name="Imagen" id="Imagen"></td></tr>
+			<tr><td colspan="2"><Input type="submit" value="enviar"></td></tr>
+		</table>
+	</form>
+</body>
+</html>

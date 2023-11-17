@@ -1,0 +1,22 @@
+<?PHP
+include("conex_info.php");
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Insertar Cliente</title>
+</head>
+<body>
+	<form enctype="multipart/form-data" action="insertar_Cliente.php" method="post">
+		<table border="1" width="50%">
+			<tr><td colspan="2"><b>Formulario para insertar Nuevo Cliente</b></td></tr>
+			<tr><td>Nombre Cliente</td><td><input type="text" name="Nombre_Cliente" id="Nombre_Cliente"></td></tr>
+			<tr><td>Direccion</td><td><input type="text" name="Direccion" id="Direccion"></td></tr>
+			<tr><td>Telefono</td><td><input type="text" name="Telefono" id="Telefono"></td></tr>
+			<tr><td>ID_Zona</td><td><input type="text" name="ID_Zona" id="ID_Zona"></td></tr>
+			<tr><td colspan="2"><Input type="submit" value="enviar"></td></tr>
+		</table>
+	</form>
+</body>
+</html>
